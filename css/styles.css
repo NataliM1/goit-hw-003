@@ -43,6 +43,7 @@ ul {
   margin-right: 76px;
   margin-bottom: 16px;
   display: inline-block;
+  padding: 24px 0;
 }
 
 .logo-black {
@@ -67,12 +68,11 @@ img {
 
 /* Header */
 .header {
-  display: flex;
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 0;
 }
 
-.header-container {
+.header-container-div {
   display: flex;
   justify-content: space-between;
 }
@@ -250,7 +250,7 @@ img {
   text-align: center;
 }
 
-.hero-section h3 {
+.hero-section-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -304,6 +304,7 @@ img {
   align-self: stretch;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-card-content h3 {
