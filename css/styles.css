@@ -207,7 +207,7 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
-.first-section-h3 {
+.first-section-h {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -250,7 +250,7 @@ img {
   text-align: center;
 }
 
-.hero-section-h3 {
+.hero-section-h {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -307,7 +307,7 @@ img {
   border-top: none;
 }
 
-.portfolio-card-content h3 {
+.portfolio-card-content-h {
   margin-bottom: 8px;
 }
 
