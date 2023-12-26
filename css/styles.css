@@ -68,17 +68,8 @@ img {
 
 /* Header */
 .header {
-  display: flex;
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 0;
-}
-.header-container-defolt {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .header-container-div {
@@ -204,7 +195,14 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-  visibility: hidden;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 .first-section-list {
